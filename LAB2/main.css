@@ -1,0 +1,56 @@
+/* Stylesheet for signup.html and login.html */
+
+body {
+    background-color: lightskyblue;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.login, .signup {
+    width: auto;
+    height: 1em;
+    color: red;
+    background-color: gold;
+    border-width: medium;
+    border-color: red;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:green;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.clear {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:firebrick;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit:hover, .clear:hover {
+    background-color:white;
+}

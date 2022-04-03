@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body>
+        <h1 class = "title">Welcome to Chanyong's Shop!</h1>
+        <p>
+            <div class = "login"><a href = "login.html" target = "_blank">LOGIN</a></div>
+            <div class = "signup">SIGN UP</div><hr color = "black">
+        </p>
+        <form>
+            <h3>SIGN UP:</h3>
+            <h5>* : Required</h5>
+            <p>
+                <label>*Name: <input name = "name" type = "text" autofocus required /></label>
+            </p>
+            <p>
+                <label>*Age: <input name = "Age" type = "number" min = "19" max = "99" value = "19" step = "1" required/></label>
+                (Enter your age between 19~99)
+            </p>
+            <p>
+                <label>*Phone Number: <input name = "phone" type = "tel" placeholder = "###-####-####" 
+                    pattern = "\d{3}-\d{4}-d{4}" required /></label>
+            </p>
+            <p>
+                <label>Email address: <input name = "email" type = "email" placeholder = "name@example.com" /></label>
+            </p>
+            <p>
+                <label>*Username: <input name = "id" type = "text" minlength = "8" maxlength = "20" required/></label>
+                (Create your Username between 8~20 characters)
+            </p>
+            <p>
+                <label>*Password: <input name = "password" type = "password" minlength = "8" maxlength = "20" required/></label>
+                (Create your password between 8~20 characters)
+            </p>
+            <p>
+                <input class = "submit" type = "submit" value = "Sign Up" />
+                <input class = "clear" type = "reset" value = "Clear" />
+            </p>
+            
+        </form>
+    </body>
+</html>
