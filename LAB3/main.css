@@ -1,0 +1,108 @@
+/* Stylesheet for signup.html and login.html */
+
+body {
+    background-color: lightskyblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.index {
+    text-align: center;
+    border: medium solid blue;
+    margin: auto;
+    width: 1020px;
+}
+
+.maintitle {
+    font-size: 3em;
+    color: mediumblue;
+    animation-name: movingtitle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes movingtitle {
+    0% {margin-left: 500px;}
+    20% {margin-left: 400px;}
+    40% {margin-left: 300px;}
+    60% {margin-left: 200px;}
+    80% {margin-left: 100px;}
+    100% {margin-left: 0px;}
+}
+
+#uniforms {
+    border-bottom: medium solid blue;
+}
+
+#img1 {
+    border: medium solid black;
+    width: 300px;
+    height: 300px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    transition: transform 2s;
+}
+#img1:hover {
+    transform: rotate(360deg);
+}
+
+#img2 {
+    border: medium solid black;
+    width: 300px;
+    height: 300px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    transition: width 2s, height 2s, padding 2s;
+}
+#img2:hover {
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+}
+
+.main, .login, .signup {
+    width: auto;
+    height: 1em;
+    color: red;
+    background-color: gold;
+    border-width: medium;
+    border-color: red;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:green;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.clear {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:firebrick;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit:hover, .clear:hover {
+    background-color:white;
+}
