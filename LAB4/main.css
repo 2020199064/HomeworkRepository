@@ -1,0 +1,164 @@
+/* Stylesheet for signup.html and login.html */
+
+body {
+    background-color: lightskyblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-items {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.chelsea, .spurs {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-words {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .flex-nav, .flex-items, .chelsea, .spurs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+    .flex-nav, .flex-items {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+.title {
+    font-size: 3em;
+}
+
+.index {
+    border: medium solid transparent;
+    margin: auto;
+    width: fit-content;
+    max-width: 1020px;
+}
+
+.maintitle {
+    text-align: center;
+    font-size: 3em;
+    color: mediumblue;
+    animation-name: movingtitle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes movingtitle {
+    0% {margin-left: 500px;}
+    20% {margin-left: 400px;}
+    40% {margin-left: 300px;}
+    60% {margin-left: 200px;}
+    80% {margin-left: 100px;}
+    100% {margin-left: 0px;}
+}
+
+#uniforms {
+    border-bottom: medium solid blue;
+}
+
+#img1 {
+    border: medium solid black;
+    width: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    transition: transform 2s;
+}
+#img1:hover {
+    transform: rotate(360deg);
+}
+
+#img2 {
+    border: medium solid black;
+    width: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    transition: width 2s, height 2s, padding 2s;
+}
+#img2:hover {
+    padding: 0px;
+}
+
+#img3 {
+    border: medium solid black;
+    width: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+#img4 {
+    border: medium solid black;
+    width: 150px;
+    height: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+#explain {
+    border-bottom: thin solid black;
+}
+
+.main, .login, .signup {
+    width: fit-content;
+    height: 1em;
+    color: red;
+    background-color: gold;
+    border-width: medium;
+    border-color: red;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+.submit {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:green;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.clear {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:firebrick;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit:hover, .clear:hover {
+    background-color:white;
+}
