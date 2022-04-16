@@ -1,4 +1,4 @@
-/* Stylesheet for signup.html and login.html */
+/* Stylesheet */
 
 body {
     background-color: lightskyblue;
@@ -98,6 +98,7 @@ body {
     transition: width 2s, height 2s, padding 2s;
 }
 #img2:hover {
+    width: 250px;
     padding: 0px;
 }
 
