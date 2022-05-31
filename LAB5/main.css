@@ -1,0 +1,159 @@
+/* Stylesheet for index.html, signup.html and login.html */
+
+body {
+    background-color: lightskyblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    border: medium solid black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1020px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.divide {
+    background-color: black;
+    border-color: black;
+    color: black;
+    width: 1020px;
+    height: 3px;
+}
+
+.searching {
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    font-size: 12pt;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.flex-uniforms {
+    padding: 77.5px;
+    padding-top: 30px;
+    border-left: medium solid black;
+}
+
+#search-button{
+    font-size: 12pt;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.flex-words {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 480px) {
+    .flex-nav, .flex-items, .chelsea, .spurs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+    .flex-nav, .flex-items {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+.maintitle {
+    text-align: center;
+    font-size: 3em;
+    color: mediumblue;
+}
+
+#uniforms {
+    border-top: medium solid black;
+    border-bottom: medium solid black;
+    text-align:center;
+}
+
+img {
+    border: medium solid black;
+    background-color: lightgray;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+section {
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.info {
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 425px;
+    height: 425px;
+    font-size: 16pt;
+    color: white;
+}
+
+#explain {
+    border-bottom: thin solid black;
+    margin-bottom: 1px;
+}
+
+.main, .login, .signup {
+    width: fit-content;
+    height: 1em;
+    color: red;
+    background-color: gold;
+    border-width: medium;
+    border-color: red;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+.submit {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:green;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.clear {
+    width: auto;
+    height: auto;
+    color: navy;
+    background-color:firebrick;
+    border-width: medium;
+    border-style: solid;
+    padding: .5em;
+    margin: 1em;
+    margin-left: 0em;
+    display: inline-block;  
+}
+
+.submit:hover, .clear:hover {
+    background-color:white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Main Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body class = "index">
+        <h1 class = "maintitle">Chanyong's Shop</h1>
+        <div class = "flex-nav">
+            <div class = "main">MAIN</div>
+            <div class = "login"><a href = "login.html" target = "_blank">LOGIN</a></div>
+            <div class = "signup"><a href = "signup.html" target = "_blank">SIGN UP</a></div>
+        </div>
+
+        <div class = "flex-words">
+            <h4 id = "explain">What is Chanyong's Shop?</h4>
+            <p id = "info">Chanyong's Shop is a E-commerce website that sells various kinds of items!
+                We opened our shop on April 2022.
+                For now, we are only selling soccer team uniforms, 
+                but the items to be sold will be regularly updated. 
+                When we update new items, we will notify you through
+                your phone number or email address, so keep on track!
+            </p>
+        </div>
+        <p>
+            <h2 id = "uniforms">Uniforms</h2>
+        </p>
+        <hr class = "divide">
+        <div class = "flex-main">
+            <div class = "searching">
+                <form>
+                    <div class = "search" style = "padding-bottom: 10px;">
+                        <label for="teams">Choose a team:<br></label>
+                        <select id = "teams">
+                            <option selected>All</option>
+                            <option>Chelsea</option>
+                            <option>Tottenham Hotspur</option>
+                            <option>Real Madrid</option>
+                            <option>FC Barcelona</option>
+                            <option>Paris Saint-Germain</option>
+                            <option>Manchester City</option>
+                            <option>Liverpool</option>
+                            <option>Korea Republic</option>
+                        </select>
+                    </div>
+                    <div class = "search">
+                        <label for="search">Search item:<br></label> 
+                        <input id = "search" type = "text" placeholder = "ex) Chelsea" style = "background-color:beige;" />
+                    </div>
+                    <div class = "search">
+                        <button id = "search-button">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class = "flex-uniforms">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

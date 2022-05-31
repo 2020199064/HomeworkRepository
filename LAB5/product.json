@@ -1,0 +1,98 @@
+[
+    {
+        "team": "Chelsea",
+        "name": "Chelsea FC Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/chelsea_home.jpg"
+    },
+    {
+        "team":"Chelsea",
+        "name":"Chelsea FC Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/chelsea_away.jpg"
+    },
+    {
+        "team":"Tottenham Hotspur",
+        "name":"Tottenham Hotspur Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/spurs_home.jpg"
+    },
+    {
+        "team":"Tottenham Hotspur",
+        "name":"Tottenham Hotspur Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/spurs_away.jpg"
+    },
+    {
+        "team":"Real Madrid",
+        "name":"Real Madrid Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/madrid_home.jpg"
+    },
+    {
+        "team":"Real Madrid",
+        "name":"Real Madrid Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/madrid_away.jpg"
+    },
+    {
+        "team":"FC Barcelona",
+        "name":"FC Barcelona Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/barcelona_home.jpg"
+    },
+    {
+        "team":"FC Barcelona",
+        "name":"FC Barcelona Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/barcelona_away.jpg"
+    },
+    {
+        "team":"Paris Saint-Germain",
+        "name":"Paris Saint-Germain Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/psg_home.jpg"
+    },
+    {
+        "team":"Paris Saint-Germain",
+        "name":"Paris Saint-Germain Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/psg_away.jpg"
+    },
+    {
+        "team":"Manchester City",
+        "name":"Manchester City Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/city_home.jpg"
+    },
+    {
+        "team":"Manchester City",
+        "name":"Manchester City Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/city_away.jpg"
+    },
+    {
+        "team":"Liverpool",
+        "name":"Liverpool FC Home Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/liverpool_home.jpg"
+    },
+    {
+        "team":"Liverpool",
+        "name":"Liverpool FC Away Uniform",
+        "price": "80000 KRW",
+        "img": "./photos/liverpool_away.jpg"
+    },
+    {
+        "team":"Korea Republic",
+        "name":"Korea Republic Home Uniform",
+        "price": "100000 KRW",
+        "img": "./photos/korea_home.jpg"
+    },
+    {
+        "team":"Korea Republic",
+        "name":"Korea Republic Away Uniform",
+        "price": "100000 KRW",
+        "img": "./photos/korea_away.jpg"
+    }
+]
